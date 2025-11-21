@@ -21,7 +21,7 @@
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
-            background: rgba(10, 10, 10, 0.8);
+            background: rgba(138, 133, 133, 0.8);
             backdrop-filter: blur(10px);
             transition: all 0.3s ease;
         }
@@ -34,13 +34,22 @@
         }
 
         .logo {
-            font-size: 32px;
-            font-weight: bold;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 0;
+            background: none; /* remove text gradient */
+            -webkit-background-clip: unset;
+            -webkit-text-fill-color: unset;
+            background-clip: unset;
+            font-size: 0; /* hide textual fallback visually while keeping it accessible for screen readers */
+        }
+
+        .logo img {
+            display: block;
+            max-height: 100px; /* adjust as needed */
+            width: auto;
+            object-fit: contain;
         }
 
         .nav-links {
