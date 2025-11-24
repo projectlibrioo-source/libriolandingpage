@@ -708,3 +708,13 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* set the display size for tablet */
+        @media screen and (min-width: 600px) and (max-width: 768px) {
+            body {
+                font-size: 18px;
+            }
+            .container {
+                width: 90%;
+            }
+        }
