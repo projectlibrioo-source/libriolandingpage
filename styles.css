@@ -628,7 +628,7 @@
         /* Responsive */
         @media (max-width: 768px) {
             nav {
-                padding: 2px;
+                padding: 2px 10px;
             }
 
             .nav-links {
