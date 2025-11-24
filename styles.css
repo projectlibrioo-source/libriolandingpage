@@ -16,7 +16,7 @@
         nav {
             position: fixed;
             width: 100%;
-            padding: 20px 50px;
+            padding: 2px 50px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -628,7 +628,7 @@
         /* Responsive */
         @media (max-width: 768px) {
             nav {
-                padding: 20px;
+                padding: 2px;
             }
 
             .nav-links {
