@@ -1,266 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
 
-    
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <title>Librioo - Smart Library Assistant Robot</title>
-    <style> </style>
-</head>
-<body>
-    <!-- Navigation -->
-<nav id="navbar" class="modern-nav">
-    <div class="nav-container">
-        <div class="logo">
-            <img src="media/librioo_logo.png" alt="Librioo_Logo" class="logo-img">
-        </div>
+        <link 
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+            rel="stylesheet0"
+        />
+        <title>Librioo - Smart Library Assistant Robot</title>
+        <style></style>
+    </head>
+    <body>
 
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#demo">Demo</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <!--navigation-->
+    <nav id="navbar" class="modern-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="media/librioo_logo.png" alt="Librioo_Logo" class="logo-img">
+            </div>
 
-        <div class="menu-toggle" id="menuToggle">
-            <i class="ri-menu-line"></i>
-        </div>
-    </div>
-</nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Welcome to LIBRIOO</h1>
-            <p>Smart Library Assistant Robot - Revolutionizing Book Discovery</p>
-            <div class="cta-buttons">
-                <a href="#demo" class="btn btn-primary">Watch Demo</a>
-                <a href="#contact" class="btn btn-secondary">Get Started</a>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="ri-menu-line"></i>
             </div>
         </div>
-        <div class="robot-container">
-            <div class="robot">
-                <div class="robot-eye left"></div>
-                <div class="robot-eye right"></div>
-            </div>
-        </div>
-    </section>
+    </nav>
 
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <h2 class="section-title">Revolutionary Features</h2>
-        <p class="section-subtitle">Transforming the library experience with cutting-edge technology</p>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">🤖</div>
-                <h3>Autonomous Navigation</h3>
-                <p>Our robot uses advanced line-following technology to navigate seamlessly through the library, guiding users to their desired books with precision.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📱</div>
-                <h3>Interactive Tablet Interface</h3>
-                <p>User-friendly touchscreen interface allows easy category browsing, book search, and instant robot control for an effortless experience.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📚</div>
-                <h3>Smart Book Management</h3>
-                <p>Track borrowing history, manage returns, and maintain accurate book inventory with our integrated database system.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">⚡</div>
-                <h3>Real-Time Updates</h3>
-                <p>Live status updates ensure librarians can monitor all activities, user interactions, and robot movements in real-time.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🔐</div>
-                <h3>Member & Guest Access</h3>
-                <p>Flexible access modes support both registered members with full borrowing privileges and guests for in-library reading.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📊</div>
-                <h3>Analytics Dashboard</h3>
-                <p>Comprehensive librarian dashboard provides insights into usage patterns, popular categories, and system performance.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- How It Works Section -->
-    <section class="how-it-works" id="how-it-works">
-        <h2 class="section-title">How It Works</h2>
-        <p class="section-subtitle">A seamless journey from search to book in hand</p>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Select Category</h3>
-                    <p>Users browse and select their desired book category from the intuitive tablet interface.</p>
-                </div>
-                <div class="timeline-number">1</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Robot Navigation</h3>
-                    <p>The robot autonomously navigates to the specified shelf location using line-following sensors.</p>
-                </div>
-                <div class="timeline-number">2</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Book Selection</h3>
-                    <p>User picks their book from the shelf and enters the book ID on the tablet for verification.</p>
-                </div>
-                <div class="timeline-number">3</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Choose Action</h3>
-                    <p>Select to borrow the book for home reading or use it in the library reading room.</p>
-                </div>
-                <div class="timeline-number">4</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Transaction Complete</h3>
-                    <p>System records the transaction, updates inventory, and the robot returns to home position.</p>
-                </div>
-                <div class="timeline-number">5</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Demo Section -->
-    <section class="demo" id="demo">
-        <h2 class="section-title">See LIBRIOO in Action</h2>
-        <p class="section-subtitle">Watch how our robot transforms the library experience</p>
-        <div class="demo-video">
-            <video autoplay muted loop playsinline class="demo-video-player">
-                <source src="media/robo.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="team" id="team">
-        <h2 class="section-title">Meet Our Team</h2>
-        <p class="section-subtitle">The innovators behind LIBRIOO</p>
-        <div class="team-grid">
-            <div class="team-card">
-                <div class="team-avatar">
-                    <img src="media/Sandun.png" alt="Sandun Profile">
-                </div>
-                <h3>Sandun Sulakshana</h3>
-                <p>Back-End Developer</p>
-                <div class="social-links">
-                    <a href="https://github.com/sandun80"><img src="media/github_logo.png" alt="gitlogo" width="24" height="24"></a>
-                    <a href="https://www.linkedin.com/in/sandun-sulakshana-465188328/"><img src="media/linkedin_logo.png" alt="linkedinlogo" width="36" height="36"></a>
-                    
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                    <img src="media/dinuka.jpeg" alt="Dinuka Profile">
-                </div>
-                <h3>Dinuka Daksitha</h3>
-                <p>Front-end Developer</p>
-                <div class="social-links">
-                    <a href="https://github.com/DinukaD-24"target="_blank" rel="noopener noreferrer"><img src="media/github_logo.png" alt="gitlogo" width="24" height="24"></a>
-                    <a href="https://www.linkedin.com/in/dinuka-ilangakoon-3ab81a335"target="_blank" rel="noopener noreferrer"><img src="media/linkedin_logo.png" alt="linkedinlogo" width="36" height="36"></a>
-                    
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                    <img src="media/tharana.jpeg" alt="Tharana Profile">
-                </div>
-                <h3>Tharana Hasintha</h3>
-                <p>System Developer</p>
-                <p>Database Architect</p>
-                <div class="social-links">
-                    <a href="https://github.com/tharanahasintha"target="_blank" rel="noopener noreferrer"><img src="media/github_logo.png" alt="gitlogo" width="24" height="24"></a>
-                    <a href="https://www.linkedin.com/in/tharanahasintha/"target="_blank" rel="noopener noreferrer"><img src="media/linkedin_logo.png" alt="linkedinlogo" width="36" height="36"></a>
-                    
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                    <img src="media/nimuthu.jpeg" alt="Nimuthu Profile">
-                </div>
-                <h3>Nimuthu Witharana</h3>
-                <p>Hardware Engineer</p>
-                <div class="social-links">
-                    <a href="https://github.com/nimuthuSW"target="_blank" rel="noopener noreferrer"><img src="media/github_logo.png" alt="gitlogo" width="24" height="24"></a>
-                    <a href="https://www.linkedin.com/in/nimuthusw/"target="_blank" rel="noopener noreferrer"><img src="media/linkedin_logo.png" alt="linkedinlogo" width="36" height="36"></a>
-                    
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                    <img src="media/kavindu.jpeg" alt="Kavidu Profile">
-                </div>
-                <h3>Kavindu Jayasinghe</h3>
-                <p>UI/UX Designer</p>
-                <div class="social-links">
-                    <a href="#"><img src="media/github_logo.png" alt="gitlogo" width="24" height="24"></a>
-                    <a href="#"><img src="media/linkedin_logo.png" alt="linkedinlogo" width="36" height="36"></a>
-                    
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                    <img src="media/pasindu.jpeg" alt="Pasidu Profile">
-                </div>
-                <h3>Pasindu Tharaka</h3>
-                <p>Front-end Developer</p>
-                <div class="social-links">
-                    <a href="https://github.com/pasindutharaka0707"target="_blank" rel="noopener noreferrer"><img src="media/github_logo.png" alt="gitlogo" width="24" height="24"></a>
-                    <a href="http://www.linkedin.com/in/pasindu-tharaka-1a660a333"target="_blank" rel="noopener noreferrer"><img src="media/linkedin_logo.png" alt="linkedinlogo" width="36" height="36"></a>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-subtitle">Interested in implementing LIBRIOO in your library?</p>
-        <div class="contact-container">
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required placeholder="Your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="organization">Organization</label>
-                    <input type="text" id="organization" name="organization" placeholder="Your library or institution">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required placeholder="Tell us about your requirements..."></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
-    </section>
-    
-
-    
-
-    <!-- Footer -->
+    <!--footer-->
     <footer>
         <div class="footer-content">
             <div class="footer-logo">LIBRIOO</div>
@@ -270,56 +46,11 @@
                 <a href="#how-it-works">How It Works</a>
                 <a href="#demo">Demo</a>
                 <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
+                <a href="#content">Content</a>
             </div>
             <p class="copyright">&copy; 2025 LIBRIOO. All rights reserved. | Smart Library Assistant Robot</p>
         </div>
     </footer>
-    
-    <button id="backToTop" title="Go to top">↑</button>
 
-    <script>
-
-        // Mobile Menu Toggle
-        const menuToggle = document.getElementById('menuToggle');
-        const navLinks = document.getElementById('navLinks');
-
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-
-        // Close menu when link is clicked
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-            });
-        });
-        // Back to Top Button
-        const backToTop = document.getElementById("backToTop");
-
-        // Show button when scrolling
-        window.onscroll = function () {
-            if (document.documentElement.scrollTop > 300) {
-                backToTop.style.display = "block";
-            } else {
-                backToTop.style.display = "none";
-            }
-        };
-
-        // Scroll to top when clicked
-        backToTop.addEventListener("click", () => {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        });
-
-    </script>
-
-    <script type="module" src="firebase-config.js"></script>
-</body>
-
+    </body>
 </html>
-        
-
-
