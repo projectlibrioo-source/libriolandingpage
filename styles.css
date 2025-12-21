@@ -825,17 +825,49 @@ html{
                 left: -100%;
                 height: 100vh;
                 width: 75%;
-                background: rgba(18, 133, 216, 0.98);
+                background: linear-gradient(135deg, #1285d8 0%, #0a5fa3 100%);
                 backdrop-filter: blur(10px);
                 flex-direction: column;
-                padding: 100px 40px;
-                gap: 15px;
+                padding: 100px 30px 60px;
+                gap: 20px;
                 transition: left 0.3s ease;
                 z-index: 999;
+                overflow-y: auto;
+                box-shadow: 2px 0 15px rgba(0, 0, 0, 0.3);
             }
 
             .nav-links.active {
                 left: 0;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links li a {
+                display: block;
+                padding: 15px 20px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 600;
+                transition: all 0.3s ease;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+            .nav-links li a:hover,
+            .nav-links li a:active {
+                background: rgba(255, 255, 255, 0.25);
+                transform: translateX(5px);
+                border-color: rgba(255, 255, 255, 0.4);
+            }
+
+            .scroll-indicator {
+                display: flex !important;
+                margin-top: auto;
+                padding-top: 20px;
+                color: #ffffff;
             }
 
             .nav-links li a {
@@ -1137,4 +1169,3 @@ html{
                 padding: 110px 45px;
             }
         }
-        
